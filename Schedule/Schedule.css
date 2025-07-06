@@ -1,0 +1,51 @@
+            *{
+                text-decoration: none;
+
+            }
+            .navbar
+            {
+                background: black; font-family: calibri; padding-right: 15px; padding-left: 15px;
+            }
+            .navdiv
+            {
+                display: flex; align-items: center; justify-content: space-between;
+            }
+            .logo
+            a{
+                font-size: 35px; font-weight: 600; color: white;
+            }
+            li
+            {
+                list-style: none; display: inline-block;
+            }
+            li 
+            a{
+                color:white; 
+                font-size: 18px; 
+                font-weight: bold; 
+                margin-right: 25px;
+                transition: 0.4s all ease-in-out ;
+            }
+            li 
+            a:hover
+            {
+                font-size: 24px; 
+                color: cyan;
+            }
+            .logo-Img
+            {
+
+                transform: scale(1);
+                transition: 1s all ease-in-out ;
+                
+            }
+            .logo-Img:hover
+            {
+
+                transform: scale(1.2);
+                
+            }
+            .HomePageTXT
+            {
+                color: black; font-size: 16px; font-family: sans-serif;
+            }
